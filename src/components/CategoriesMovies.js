@@ -22,7 +22,7 @@ const CategoriesMovies = (props) => {
     useEffect(() => {
         axios.get(URL).then((res) => setData(res.data.results));
         axios.get(URL_GENRES).then((res) => setCategories(res.data.genres));
-    }, [idParam]);
+    }, [idParam, URL]);
 
     const onChange = (event) => {
         setId(event.target.value);
