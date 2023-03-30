@@ -1,0 +1,51 @@
+.banner { 
+  margin-top: 180px;
+  padding-bottom: 20px;
+  height: 250px;
+  max-height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+
+.categories {
+  margin-bottom: 200px;
+  margin-top: 300px;
+}
+
+
+  
+.categoriesMovies {
+  .sort-container {
+    display: flex;
+    border: 5px solid;
+    border-color: #4B0082;
+    width: 400px;
+    margin-left: 575px;
+    margin-top: -450px;
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+
+  select {
+    font-family: Oxanium;
+    font-size: 25px;
+    font-style: normal;
+    color: #0D08F9;
+    width: 900px;
+    height: 40px;
+  }
+
+  .categoriesMovies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 300px;
+
+  }
+}
+
+ 

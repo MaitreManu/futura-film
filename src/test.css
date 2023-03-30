@@ -1,0 +1,67 @@
+.conteneur-flexible {
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 30px;
+}
+
+.ligne {
+    flex-flow: row wrap;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.element-flexible {
+    flex: 0 0 30%;
+    width: 25%;
+    height: 300px;
+
+    padding: 10px 0px;
+    text-align: center;
+
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #212D30;
+}
+
+.fixed-header,
+.fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: black;
+    padding: 20px;
+    color: #fff;
+}
+
+.fixed-header {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fixed-footer {
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* Some more styles to beutify this example */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.container p {
+    line-height: 200px;
+    /* Create scrollbar to test positioning */
+}

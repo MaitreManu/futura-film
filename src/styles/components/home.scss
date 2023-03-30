@@ -1,0 +1,84 @@
+.home {
+    margin-bottom: 200px;
+  }
+
+.banner {
+    margin-top: 180px;
+    padding-bottom: 20px;
+    height: 250px;
+    max-height: 100%;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'A-Space Demo';
+    color: #0D08F9;
+    margin-top: 0px;
+    padding-top: 70px;
+  }
+  
+.home h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'A-Space Demo';
+    color: #0D08F9;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .home {
+    margin-bottom: 200px;
+  
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 100px;
+    }
+  }
+  
+  .banner {
+    margin-top: 180px;
+    padding-bottom: 20px;
+    height: 250px;
+    max-height: 100%;
+    width: 100%;
+    z-index: 9999;
+  
+    @media only screen and (max-width: 768px) {
+      margin-top: 80px;
+      height: 200px;
+    }
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'A-Space Demo';
+    color: #0D08F9;
+    margin-top: 0px;
+    padding-top: 70px;
+  
+    @media only screen and (max-width: 768px) {
+      font-size: 38px;
+      padding-top: 120px;
+      color: #4B0082;
+    }
+  }
+  
+  .home h2 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'A-Space Demo';
+    color: #0D08F9;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    @media only screen and (max-width: 768px) {
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  
+

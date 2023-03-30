@@ -1,0 +1,91 @@
+.about {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner {
+    margin-top: 180px;
+    height: 250px;
+    max-width: 100%;
+    z-index: 9999;
+  }
+  
+  .emmanuel img {
+    width: auto;
+    height: auto;
+    border: 5px solid;
+    border-color: #4B0082;
+    margin: 40px 40px 40px 40px;
+    max-width: 100%;
+    min-width: 200px; 
+  }
+  
+  .text-about {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .text-about p {
+    color: #000000;
+    font-family: Oxanium, sans-serif;
+    font-size: 20px;
+  }
+  
+  .cinoche img {
+    border: 5px solid;
+    border-color: #4B0082;
+    margin: 40px;
+    max-width: 100%;
+    min-width: 200px; 
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .about {
+      flex-direction: row;
+    }
+  
+    .emmanuel img {
+      flex: 1 1 0;
+      margin: 0 40px 0 0; 
+    }
+  
+    .text-about {
+      flex: 1 1 0;
+      margin: 0 0 0 40px;
+      text-align: left;
+    }
+  
+    .cinoche img {
+      flex: 1 1 0;
+      margin: 0 0 0 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .about {
+      flex-direction: row;
+    }
+  
+    .emmanuel img {
+      flex: 1 1 0;
+      margin: 2;
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .text-about {
+      flex: 1 1 50%;
+      margin: 1;
+      text-align: left;
+      margin-right: 20px;
+    }
+  
+    .cinoche img {
+      flex: 1 1 0;
+      margin: 3;
+    }
+  }

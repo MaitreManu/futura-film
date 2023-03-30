@@ -1,0 +1,30 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  // margin: 0.4rem auto;
+  font-family: Oxanium, sans-serif;
+  color: #0D08F9;
+  // color:  ;
+  background-color: #c0c0c0;
+  margin: 0.4rem auto;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+li {
+  list-style: none;
+}
+
