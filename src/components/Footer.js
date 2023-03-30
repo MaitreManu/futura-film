@@ -27,7 +27,7 @@ function Footer() {
           </ul>
 
           <ul className="menu3">
-            <li><a>Suivez-nous</a></li>
+            <li>Suivez-nous</li>
             <li className="socialmedia">
               <a href="/"><img src="../images/facebook.png" alt="facebook" /></a>
               <a href="/"><img src="../images/instagram.png" alt="instagram" /></a>
