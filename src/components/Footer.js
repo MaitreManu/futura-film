@@ -19,20 +19,20 @@ function Footer() {
           </ul>
 
           <ul className="menu2">
-            <li><a href='#'>Newsletter</a></li>
-            <li><a href="#">Conditions d'utilisation</a></li>
-            <li><a href="#">Politique de confidentialité</a></li>
-            <li><a href="#">Préférence des cookies</a></li>
+            <li><a href='/'>Newsletter</a></li>
+            <li><a href="/">Conditions d'utilisation</a></li>
+            <li><a href="/">Politique de confidentialité</a></li>
+            <li><a href="/">Préférence des cookies</a></li>
 
           </ul>
 
           <ul className="menu3">
             <li><a>Suivez-nous</a></li>
             <li className="socialmedia">
-              <a href="#"><img src="../images/facebook.png" alt="facebook" /></a>
-              <a href="#"><img src="../images/instagram.png" alt="instagram" /></a>
-              <a href="#"><img src="../images/youtube.png" alt="youtube" /></a>
-              <a href="#"><img src="../images/twitter.png" alt="twitter" /></a></li>
+              <a href="/"><img src="../images/facebook.png" alt="facebook" /></a>
+              <a href="/"><img src="../images/instagram.png" alt="instagram" /></a>
+              <a href="/"><img src="../images/youtube.png" alt="youtube" /></a>
+              <a href="/"><img src="../images/twitter.png" alt="twitter" /></a></li>
           </ul>
         </div>
 
