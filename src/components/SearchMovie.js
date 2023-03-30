@@ -21,7 +21,7 @@ const SearchMovie = () => {
         axios.get(URL).then((res) => {
             setData(res.data.results);
         });
-    }, [query]);//Tableau de dépendance
+    }, [query, URL]);//Tableau de dépendance
 
     const onSearch = (event) => {
         setQuery(event.target.value);
